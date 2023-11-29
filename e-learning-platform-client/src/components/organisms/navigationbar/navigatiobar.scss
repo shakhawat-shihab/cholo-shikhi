@@ -1,0 +1,19 @@
+#logo {
+  content: "";
+  width: 110px;
+  height: 100%;
+  position: absolute;
+  left: -25px;
+  top: 0;
+  z-index: -1;
+  -webkit-transform: skew(-20deg);
+  transform: skew(-20deg);
+  background-color: red;
+}
+
+.min-w-18 {
+  min-width: 18px;
+}
+.min-h-18 {
+  min-height: 18px;
+}

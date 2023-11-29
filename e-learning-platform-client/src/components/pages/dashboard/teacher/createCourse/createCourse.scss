@@ -1,0 +1,29 @@
+.img-container {
+  height: 150px;
+  width: 150px;
+  // padding: 15px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  .image-edit-btn {
+    position: absolute;
+    visibility: hidden;
+    cursor: pointer;
+    z-index: 10;
+    padding: 20px;
+  }
+}
+.img-container:hover {
+  background-color: #7e7e7e14;
+  .image-edit-btn {
+    visibility: visible;
+  }
+  img {
+    opacity: 0.5;
+  }
+}
+.img-container:hover {
+  background-color: #a2a2a200;
+}

@@ -1,0 +1,9 @@
+.custom-navbar-ul-container {
+  align-items: center;
+  li {
+    padding: 15px 20px;
+  }
+  li:last-child {
+    padding-right: 0px;
+  }
+}

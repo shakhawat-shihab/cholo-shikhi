@@ -1,0 +1,53 @@
+.instructor-banner {
+  background: url("http://html.heloshape.com/eskul/images/home/9.jpg") no-repeat
+    center;
+  background-size: auto;
+  background-size: cover;
+  margin-top: 90px;
+}
+
+.instructor-banner .opacity {
+  text-align: center;
+  padding: 110px 0 120px 0;
+}
+.instructor-banner .opacity-one {
+  background: rgba(27, 29, 61, 0.9);
+}
+
+.hvr-trim {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+.instructor-banner .opacity h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.instructor-banner .opacity h2 {
+  font-weight: 700;
+  color: #fff;
+  line-height: 55px;
+  margin: 15px 0 25px 0;
+}
+
+.instructor-banner .opacity a {
+  width: 195px;
+  line-height: 48px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+}

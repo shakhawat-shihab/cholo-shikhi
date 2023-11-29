@@ -1,0 +1,24 @@
+.page-number-container {
+  //   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .page-btn {
+    color: white;
+    background-color: rgba(65, 65, 247, 0.94);
+    padding: 5px 8px;
+    margin: 0px 5px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  .active-page {
+    color: black;
+    border: 0.8px solid black;
+  }
+
+  .page-btn:disabled {
+    background-color: rgba(63, 122, 250, 0.959);
+  }
+}
